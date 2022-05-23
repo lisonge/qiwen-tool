@@ -13,6 +13,8 @@ export default defineConfig({
         namespace: 'https://dev.songe.li',
         icon: 'https://dev.songe.li/favicon.svg',
         description: '奇问辅助工具',
+        updateURL:
+          'https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js',
         include: [
           'http://qiwen.qiyi.domain/answer/participate/*',
           'http://qiwen.qiyi.domain/exam/participate/*',
