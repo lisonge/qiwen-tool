@@ -4,6 +4,10 @@
 // @version      1.0.0
 // @description  奇问辅助工具
 // @icon         https://dev.songe.li/favicon.svg
+// @homepage     https://github.com/lisonge/qiwen-tool#readme
+// @homepageURL  https://github.com/lisonge/qiwen-tool#readme
+// @source       https://github.com/lisonge/qiwen-tool.git
+// @supportURL   https://github.com/lisonge/qiwen-tool/issues
 // @updateURL    https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js
 // @include      http://qiwen.qiyi.domain/answer/participate/*
 // @include      http://qiwen.qiyi.domain/exam/participate/*

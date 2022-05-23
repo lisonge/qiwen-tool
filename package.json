@@ -21,5 +21,13 @@
   },
   "volta": {
     "node": "16.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisonge/qiwen-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisonge/qiwen-tool/issues"
+  },
+  "homepage": "https://github.com/lisonge/qiwen-tool#readme"
 }
