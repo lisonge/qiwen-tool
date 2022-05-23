@@ -2,6 +2,8 @@ import vue from '@vitejs/plugin-vue';
 import { defineConfig } from 'vite';
 import monkeyPlugin from 'vite-plugin-monkey';
 
+const updateURL =
+  'https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -13,9 +15,9 @@ export default defineConfig({
         namespace: 'https://dev.songe.li',
         icon: 'https://dev.songe.li/favicon.svg',
         description: '奇问辅助工具',
-        updateURL:
-          'https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js',
-        include: [
+        updateURL,
+        downloadURL:updateURL,
+        match: [
           'http://qiwen.qiyi.domain/answer/participate/*',
           'http://qiwen.qiyi.domain/exam/participate/*',
         ],
