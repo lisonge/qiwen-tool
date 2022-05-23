@@ -4,7 +4,7 @@ qiwen-tool
 
 ## install
 
-<https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@master/dist/qiwen-tool.user.js>
+<https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js>
 
 or
 
