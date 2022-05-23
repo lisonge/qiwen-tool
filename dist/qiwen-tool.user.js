@@ -8,9 +8,10 @@
 // @homepageURL  https://github.com/lisonge/qiwen-tool#readme
 // @source       https://github.com/lisonge/qiwen-tool.git
 // @supportURL   https://github.com/lisonge/qiwen-tool/issues
+// @downloadURL  https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js
 // @updateURL    https://cdn.jsdelivr.net/gh/lisonge/qiwen-tool@main/dist/qiwen-tool.user.js
-// @include      http://qiwen.qiyi.domain/answer/participate/*
-// @include      http://qiwen.qiyi.domain/exam/participate/*
+// @match        http://qiwen.qiyi.domain/answer/participate/*
+// @match        http://qiwen.qiyi.domain/exam/participate/*
 // @require      https://cdn.jsdelivr.net/npm/core-js-bundle@latest/minified.js
 // @require      https://cdn.jsdelivr.net/npm/vue@3.2.33/dist/vue.global.prod.js
 // ==/UserScript==
